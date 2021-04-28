@@ -1,0 +1,3 @@
+news,url,classOverlap,classHeadline,classIntro
+Welt,https://www.welt.de/,o-teaser__body,o-headline,c-teaser-default__intro
+Tagesschau,https://www.tagesschau.de/,teaser__teaserinfo,teaser__headline,teaser__shorttext
