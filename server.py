@@ -6,14 +6,14 @@ from database import NewsDB
 
 app = Flask(__name__)
 
-@app.route('/data/all')
+@app.route('/data/news/all')
 def get_all_data():
-    res = NewsDB.getAll()
+    res = NewsDB.get_all_news()
     print(res)
     return json.dumps({"value": res})
 
 #TODO: Imple
-@app.route('/data/query')
+@app.route('/data/news/query')
 def getQueriedData():
     return json.dumps({'name': 'alice',
                        'email': 'alice@outlook.com'})

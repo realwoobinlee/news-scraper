@@ -3,3 +3,4 @@ Flask==1.1.2
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 SQLAlchemy @ file:///tmp/build/80754af9/sqlalchemy_1603397987316/work
 psycopg2
+pytrends
