@@ -9,11 +9,9 @@ app = Flask(__name__)
 @app.route('/data/news/all')
 def get_all_data():
     res = NewsDB.get_all_news()
-    print(res)
     return json.dumps({"value": res})
 
-#TODO: Imple
-@app.route('/data/news/query')
-def getQueriedData():
-    return json.dumps({'name': 'alice',
-                       'email': 'alice@outlook.com'})
+@app.route('/data/trends/all')
+def get_all_trends():
+    res = NewsDB.get_all_trends()
+    return json.dumps({"value": res})
