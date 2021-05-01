@@ -46,7 +46,7 @@ def main():
     # 7 days interval
     call_repeatedly(60 * 60 * 24 * 7, run_and_save_news)
     call_repeatedly(60 * 60 * 24, run_and_save_trends)
-    app.run()
+    app.run(host= '0.0.0.0')
     
 if __name__ == "__main__":
     main()

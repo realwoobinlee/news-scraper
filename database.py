@@ -19,7 +19,7 @@ class NewsDatabaseClass:
     )
 
     trends_table = Table("trends", metadata,
-        Column("date", String),
+        Column("date", String, primary_key=True),
         Column("keyword", String, primary_key=True),
     )
 
