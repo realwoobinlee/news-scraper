@@ -9,9 +9,9 @@ app = Flask(__name__)
 @app.route('/data/news/all')
 def get_all_data():
     res = NewsDB.get_all_news()
-    return json.dumps({"value": res})
+    return json.dumps({"value": res}, ensure_ascii=False)
 
 @app.route('/data/trends/all')
 def get_all_trends():
     res = NewsDB.get_all_trends()
-    return json.dumps({"value": res})
+    return json.dumps({"value": res}, ensure_ascii=False)

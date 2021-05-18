@@ -1,3 +1,6 @@
 news,url,classOverlap,classHeadline,classIntro
 Welt,https://www.welt.de/,o-teaser__body,o-headline,c-teaser-default__intro
 Tagesschau,https://www.tagesschau.de/,teaser__teaserinfo,teaser__headline,teaser__shorttext
+Zeit,https://www.zeit.de/index,zon-teaser-poster__container,zon-teaser-poster__title,zon-teaser-poster__text
+Zeit,https://www.zeit.de/index,zon-teaser-standard,zon-teaser-standard__title,zon-teaser-standard__text
+ntv,https://www.n-tv.de/,teaser__content,teaser__headline,teaser__text

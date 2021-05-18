@@ -15,9 +15,6 @@ def run_and_save_news():
                 single["intro"] = "-"
             single["headline"] = single["headline"].replace("\n","")
             single["intro"] = single["intro"].strip().replace("\n","")
-            if len(single["intro"] ) > 250:
-                single["intro"] = single["intro"][:249]
-            print(single)
             NewsDB.save_news(
                 news[NEWS],
                 datetime.now().strftime("%d/%m/%Y"),
@@ -42,6 +39,9 @@ def call_repeatedly(interval, func, *args):
     Thread(target=loop).start()    
     return stopped.set
 
+#
+# MAIN
+#
 def main():
     # 7 days interval
     call_repeatedly(60 * 60 * 24 * 7, run_and_save_news)
