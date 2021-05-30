@@ -1,8 +1,7 @@
 import json
 from flask import Flask
 from datetime import datetime
-from webscraper import retrieve_newslist, scrape_news, NEWS
-from database import NewsDB
+from components.database import NewsDB
 
 app = Flask(__name__)
 

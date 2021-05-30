@@ -1,6 +1,12 @@
 news,url,classOverlap,classHeadline,classIntro
-Welt,https://www.welt.de/,o-teaser__body,o-headline,c-teaser-default__intro
-Tagesschau,https://www.tagesschau.de/,teaser__teaserinfo,teaser__headline,teaser__shorttext
-Zeit,https://www.zeit.de/index,zon-teaser-poster__container,zon-teaser-poster__title,zon-teaser-poster__text
-Zeit,https://www.zeit.de/index,zon-teaser-standard,zon-teaser-standard__title,zon-teaser-standard__text
-ntv,https://www.n-tv.de/,teaser__content,teaser__headline,teaser__text
+Welt,https://www.welt.de/,.o-teaser__body,.o-headline,.c-teaser-default__intro
+Tagesschau,https://www.tagesschau.de/,.teaser__teaserinfo,.teaser__headline,.teaser__shorttext
+Zeit,https://www.zeit.de/index,.zon-teaser-poster__container,.zon-teaser-poster__title,.zon-teaser-poster__text
+Zeit,https://www.zeit.de/index,.zon-teaser-standard,.zon-teaser-standard__title,.zon-teaser-standard__text
+ntv,https://www.n-tv.de/,.teaser__content,.teaser__headline,.teaser__text
+sueddeutsche,https://www.sueddeutsche.de,.sz-teaserlist-element,.sz-teaser__title,.sz-teaser__summary
+Deutsche Welle,https://www.dw.com/de/themen/s-9077,.teaserContentWrap,h2,p
+Deutsche Welle,https://www.dw.com/de/themen/s-9077,.news,h2,p
+Focus,https://www.focus.de/,.right,.vr,p
+Focus,https://www.focus.de/,.singleTeaser,.vr,.none
+Focus,https://www.focus.de/,.info,.vr,.none
