@@ -14,3 +14,7 @@ def get_all_data():
 def get_all_trends():
     res = NewsDB.get_all_trends()
     return json.dumps({"value": res}, ensure_ascii=False)
+
+@app.route('/test')
+def get_test():
+    return json.dumps({"value": "test"}, ensure_ascii=False)
